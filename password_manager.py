@@ -59,7 +59,7 @@ def add_password():
             finally:
                 website_entry.delete(0, END)
                 email_username_entry.delete(0, END)
-                email_username_entry.insert(0, 'abhay.shrawankar@gmail.com')
+                email_username_entry.insert(0, '<enter your default email, else leave blank>')
                 password_entry.delete(0, END)
                 website_entry.focus()
 
